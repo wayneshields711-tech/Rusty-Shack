@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const products = [
   { name: "Snorkel Mask", price: 24 },
   { name: "Beach Umbrella", price: 35 },
@@ -8,6 +10,9 @@ export default function Home() {
   return (
     <main>
       <header className="header">
+        <nav className="nav">
+          <Link href="/about">About Apo Island</Link>
+        </nav>
         <h1>The Rusti Shack</h1>
         <p>Beach and dive gear for Apo Island and beyond.</p>
       </header>
