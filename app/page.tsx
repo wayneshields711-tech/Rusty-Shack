@@ -4,8 +4,6 @@ const products = [
   { name: "Snorkel Mask", price: 24 },
   { name: "Beach Umbrella", price: 35 },
   { name: "Surf Wax", price: 6 },
-  { name: "Winter Coat", price: 120 },
-  { name: "Skis", price: 300 },
 ];
 
 export default function Home() {
